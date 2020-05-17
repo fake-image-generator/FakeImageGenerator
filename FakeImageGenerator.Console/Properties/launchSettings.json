@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FakeImageGenerator.Console": {
+      "commandName": "Project",
+      "commandLineArgs": "-s 10000 -e Png -t \"C:/test\""
+    }
+  }
+}
