@@ -35,4 +35,7 @@ var generator = new Generator();
 var array = generator.Run(10000000, "Png"); // generate a 10MB PNG image
 ```
 
-If you want to generate fake images for Xunit theories tests download the [FakeImageGenerator.Xunit](https://github.com/fake-image-generator/FakeImageGenerator.Xunit) package.
+If you want to generate fake images for tests:
+
+- For Xunit theories tests download the [FakeImageGenerator.Xunit](https://github.com/fake-image-generator/FakeImageGenerator.Xunit) package.
+- For MSTest data tests download the [FakeImageGenerator.MSTest](https://github.com/fake-image-generator/FakeImageGenerator.MSTest) package.
