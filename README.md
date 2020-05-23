@@ -11,7 +11,9 @@ This was made for generating big files that pose as images for testing purposes 
 
 ### Installation
 
-TODO
+```
+Install-Package FakeImageGenerator
+```
 
 ### Build
 
@@ -19,4 +21,18 @@ Simply build the solution in Visual Studio 2019.
 
 ### Usage
 
-TODO
+Use `Generator` class to generate a fake image like this:
+
+```csharp
+var generator = new Generator();
+generator.Run(10000000, "Png", "C:/"); // generate a 10MB PNG image
+```
+
+Or if you want a byte array:
+
+```csharp
+var generator = new Generator();
+var array = generator.Run(10000000, "Png"); // generate a 10MB PNG image
+```
+
+If you want to generate fake images for Xunit theories tests download the [FakeImageGenerator.Xunit](https://github.com/fake-image-generator/FakeImageGenerator.Xunit) package.
