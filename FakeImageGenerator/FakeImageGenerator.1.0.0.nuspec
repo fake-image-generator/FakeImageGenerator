@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>FakeImageGenerator</id>
+    <version>1.0.0</version>
+    <authors>Fagner Nunes Carvalho</authors>
+    <owners>Fagner Nunes Carvalho</owners>
+	<title>Fake Image Generator</title>
+    <description>Generate a fake JPG or PNG image in any size between 1 KB and 2 GB.</description>
+	<summary>Generate a fake JPG or PNG image in any size between 1 KB and 2 GB.</summary>
+	<license type="expression">MIT</license>
+	<requireLicenseAcceptance>true</requireLicenseAcceptance>
+	<language>en-US</language>
+	<repository type="git" url="https://github.com/fake-image-generator/FakeImageGenerator" branch="master" commit="a46d9bf2d736418d8ccd614395b4d33de0941c9b" />
+	<tags>image image-manipulation fake generator big</tags>
+	<icon>icon.png</icon>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1" />
+    </dependencies>
+	<projectUrl>https://github.com/fake-image-generator/FakeImageGenerator</projectUrl>
+  </metadata>
+  <files>
+    <file src="C:\github\FakeImageGenerator\FakeImageGenerator\bin\Debug\netcoreapp3.1\FakeImageGenerator.dll" target="lib\netcoreapp3.1\FakeImageGenerator.dll" />
+	<file src="icon.png" target="" />
+  </files>
+</package>
