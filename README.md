@@ -1,4 +1,8 @@
 # FakeImageGenerator
+[![NuGet](https://img.shields.io/nuget/v/FakeImageGenerator)](https://www.nuget.org/packages/FakeImageGenerator/) [![Github Actions](https://img.shields.io/github/workflow/status/fake-image-generator/FakeImageGenerator/.NET%20Core)](https://github.com/fake-image-generator/FakeImageGenerator/actions?query=workflow%3A".NET+Core")
+
+
+
 <img align="left" width="100" height="100" src="fake-image-generator.png">
 
 Generate a fake JPG or PNG image in any size between 1 KB and 2 GB.
